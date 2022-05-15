@@ -1,0 +1,13 @@
+@mixin push-up {
+   transform: translateY(-5rem);
+}
+
+@mixin push-up-little {
+    transform: translateY(-3rem);
+}
+
+@mixin card {
+    box-shadow: 0 0 0.8rem $black;
+    background-color: white;
+    padding: 1rem 2rem;
+}

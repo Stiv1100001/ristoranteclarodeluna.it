@@ -1,0 +1,32 @@
+@import "~/bootstrap/dist/css/bootstrap.min.css";
+
+@import './partials/variables';
+
+
+.title {
+    color: $black;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+    & .text::before {
+        content: "";
+        display: inline-block;
+        height: 1.2rem;
+        width: 1.2rem;
+        background-image: url('@/assets/img/star.svg');
+        vertical-align: bottom;
+        margin-right: .4rem;
+    }
+}
+
+p {
+    color: $black;
+    font-size: 1.3rem;
+    padding: 0 3rem;
+
+    &.first::first-letter {
+        color: $secondary;
+        font-size: 2rem;
+    }
+}

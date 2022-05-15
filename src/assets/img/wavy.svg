@@ -1,0 +1,14 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="true"
+        overflow="visible"
+        viewBox="0 0 24 24"
+        height="100%"
+        fill="none"
+        stroke="black"
+        stroke-width=".7"
+        stroke-linecap="square"
+        stroke-miterlimit="10"
+      >
+        <path d="M0,6c6,0,0.9,11.1,6.9,11.1S18,6,24,6" />
+</svg>
