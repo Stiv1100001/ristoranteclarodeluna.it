@@ -1,0 +1,117 @@
+{
+  "vini": [
+    {
+      "nome": "Franciacorta Cuvèe Imperiale Brut DOCG 37.5 cl",
+      "marca": "Berlucchi",
+      "prezzo": 14
+    },
+    {
+      "nome": "Franciacorta Cuvèe Imperiale Brut DOCG",
+      "marca": "Berlucchi",
+      "prezzo": 28
+    },
+    {
+      "nome": "Franciacorta Pas Dosè DOCG",
+      "marca": "Il Mosnel",
+      "prezzo": 40
+    },
+    {
+      "nome": "Franciacorta Brut Prima Cuvèe DOCG",
+      "marca": "Monterossa",
+      "prezzo": 40
+    },
+    {
+      "nome": "Franciacorta Cuvèe Imperiale Max Rosè DOCG",
+      "marca": "Berlucchi",
+      "prezzo": 40
+    },
+    {
+      "nome": "Franciacorta Brut Satèn DOCG Sansevé",
+      "marca": "Monterossa",
+      "prezzo": 42
+    },
+    {
+      "nome": "Franciacorta Rosé DOCG",
+      "marca": "Il Mosnel",
+      "prezzo": 44
+    },
+    {
+      "nome": "Franciacorta Extra Brut “Cuvée Prestige” DOCG 35.5 cl",
+      "marca": "Cà del Bosco",
+      "prezzo": 30
+    },
+    {
+      "nome": "Franciacorta Extra Brut “Cuvée Prestige” DOCG",
+      "marca": "Cà del Bosco",
+      "prezzo": 60
+    },
+
+    {
+      "nome": "Spumante Brut Trento DOC",
+      "marca": "Ferrari",
+      "prezzo": 35
+    },
+    {
+      "nome": "Trento Spumante Blanc de Blanc “Maximum” DOC",
+      "marca": "Ferrari ",
+      "prezzo": 35
+    },
+    {
+      "nome": "Trento Spumante Brut “Perlé” DOC",
+      "marca": "Ferrari",
+      "prezzo": 43
+    },
+
+    {
+      "nome": "Spumante “Amaluna” Extra Dry Salento",
+      "marca": "Due Palme",
+      "prezzo": 13
+    },
+    {
+      "nome": "Spumante Alghero Torbato Brut DOC",
+      "marca": "Sella & Mosca",
+      "prezzo": 20
+    },
+    {
+      "nome": "Spumante Extra Dry non filtrato “Crudoo”",
+      "marca": "Giorgi",
+      "prezzo": 22
+    },
+    {
+      "nome": "Spumante Tridentum Brut Trento DOC",
+      "marca": "Cesarini Sforza",
+      "prezzo": 25
+    },
+    {
+      "nome": "Spumante Brut",
+      "marca": "Villa Sparina",
+      "prezzo": 35
+    },
+    {
+      "nome": "Spumante Tridentum Dosaggio Zero Trento DOC",
+      "marca": "Cesarini Sforza",
+      "prezzo": 36
+    },
+    {
+      "nome": "Spumante Metodo Classico Brut Rosé",
+      "marca": "Terrazze dell'Etna",
+      "prezzo": 40
+    },
+
+    {
+      "nome": "Prosecco Extra Dry DOC",
+      "marca": "Montelvini",
+      "prezzo": 15
+    },
+    {
+      "nome": "Prosecco Extra Dry DOC",
+      "marca": "Fiol",
+      "prezzo": 16
+    },
+    {
+      "nome": "Conegliano Valdobbiadene Spumante Brut Rive di Solighetto DOCG",
+      "marca": "Spagnol Col Del Sas",
+      "prezzo": 24
+    }
+  ]
+}

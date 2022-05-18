@@ -1,13 +1,17 @@
 @mixin push-up {
-   transform: translateY(-5rem);
+  transform: translateY(-5rem);
 }
 
 @mixin push-up-little {
-    transform: translateY(-3rem);
+  transform: translateY(-3rem);
+}
+
+@mixin push-down-little {
+  margin-top: 3rem;
 }
 
 @mixin card {
-    box-shadow: 0 0 0.8rem $black;
-    background-color: white;
-    padding: 1rem 2rem;
+  box-shadow: 0 0 0.8rem $black;
+  background-color: white;
+  padding: 1rem 2rem;
 }

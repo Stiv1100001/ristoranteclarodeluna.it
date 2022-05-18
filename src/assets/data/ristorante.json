@@ -1,0 +1,168 @@
+{
+  "antipasti": {
+    "pesce": [
+      {
+        "nome": "Baccalà mantecato, salsa barbecue di pomodorini gialli e polvere di olive nere",
+        "descrizione": "",
+        "prezzo": 8
+      },
+      {
+        "nome": "Polpo scottato, spuma e cavolfiori croccanti",
+        "descrizione": "",
+        "prezzo": 10
+      }
+    ],
+    "carne": [
+      {
+        "nome": "Selezione di salumi e formaggi del territorio",
+        "descrizione": "Prosciutto di Parma, pancetta, mortadella, salame, coppa di testa, caciotta, squacquerone",
+        "prezzo": 9
+      },
+      {
+        "nome": "Cestino di crescentine fritte a porzione",
+        "descrizione": "",
+        "prezzo": 2.5
+      },
+      {
+        "nome": "Pancia di mailino, riduzione alla liquirizia e cipolla rossa agrodolce",
+        "descrizione": "",
+        "prezzo": 9
+      }
+    ]
+  },
+  "primi": [
+    {
+      "nome": "Lasagne verdi al Ragoût bolognese",
+      "descrizione": "15 minuti di attesa",
+      "prezzo": 10
+    },
+    {
+      "nome": "Passatelli in brodo di manzo e cappone",
+      "descrizione": "",
+      "prezzo": 10
+    },
+    {
+      "nome": "Tortellini \"36 Tuorli\" doppia panna e polvere di barbabietola",
+      "descrizione": "",
+      "prezzo": 12
+    },
+    {
+      "nome": "Pizzocchero Bolognese",
+      "descrizione": "Tortelloni di grano saraceno ripieni di patate e verza, mantecati al burro, salvia e Grana Padano 18 mesi",
+      "prezzo": 10
+    },
+    {
+      "nome": "Pasta mista al torchio in brodetto di mare e katsuobushi di tono (filetti esiccati)",
+      "descrizione": "",
+      "prezzo": 12
+    },
+    {
+      "nome": "Spaghetti alla chitarra cacio, pepe e battuta di scampi* crudi al limone",
+      "descrizione": "",
+      "prezzo": 13
+    }
+  ],
+  "secondi": [
+    {
+      "nome": "Guancia di vitello cotta bassa temperatura, porcini e purea di patate schiacciate",
+      "descrizione": "",
+      "prezzo": 16
+    },
+    {
+      "nome": "Pluma Iberica",
+      "descrizione": "Maialino di Patanegra, salsa alla birra e miele e cipolla agrodolce",
+      "prezzo": 15
+    },
+    {
+      "nome": "Trancio di salmone affumicato al pino mugo e cavolo viola marinato",
+      "descrizione": "",
+      "prezzo": 15
+    },
+    {
+      "nome": "Frittura di calamari, gamberi e maionese al limone",
+      "descrizione": "",
+      "prezzo": 15
+    }
+  ],
+  "contorni": [
+    {
+      "nome": "Verdure di stagione trifolate",
+      "descrizione": "",
+      "prezzo": 4
+    },
+    {
+      "nome": "Friggione alla bolognese",
+      "descrizione": "",
+      "prezzo": 4
+    }
+  ],
+  "dolci": [
+    {
+      "nome": "Cannolo di biscotto croccante, crema al mascarpone e salsa al ciocolato",
+      "descrizione": "",
+      "prezzo": 6
+    },
+    {
+      "nome": "Foresta Nera ai frutti rossi",
+      "descrizione": "Brownie al cioccolato, sorbetto ai frutti rossi, amarene, panna montata, salsa al lampone e kisch",
+      "prezzo": 6
+    },
+    {
+      "nome": "Claro De Luna",
+      "descrizione": "Cremoso e biscotto morbido al pistacchio, mezzaluna al cioccolato bianco, salsa al pistacchio salato e crumble croccante",
+      "prezzo": 6
+    },
+    {
+      "nome": "Raviole bolognesi",
+      "descrizione": "Servite con un vino da dessert a scelta",
+      "prezzo": 6
+    }
+  ],
+  "sorbetti": [
+    {
+      "nome": "Pera e zenzero",
+      "descrizione": "",
+      "prezzo": 4
+    },
+    {
+      "nome": "Frutti Rossi",
+      "descrizione": "",
+      "prezzo": 4
+    }
+  ],
+  "vini": [
+    {
+      "nome": "Pignoletto Passito",
+      "descrizione": "Gaggioli"
+    },
+    {
+      "nome": "Moscato",
+      "descrizione": "Lamoretti"
+    },
+    {
+      "nome": "Vin Santo",
+      "descrizione": "Le Coste l'Santo"
+    },
+    {
+      "nome": "Moscato di Pantelleria Kabir",
+      "descrizione": "Donnafugata"
+    },
+    {
+      "nome": "Fiano Passito IGP Selvaoro",
+      "descrizione": "Due Palme"
+    },
+    {
+      "nome": "Porto Tawny",
+      "descrizione": "Don Pablo"
+    },
+    {
+      "nome": "Marsala Superiore DOC",
+      "descrizione": "Vecchioflorio"
+    }
+  ],
+  "menuFisso": {
+    "nome": "Menù fisso",
+    "descrizione": "Dal lunedì al venerdì",
+    "prezzo": 12
+  }
+}

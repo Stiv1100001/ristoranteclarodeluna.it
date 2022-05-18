@@ -1,0 +1,96 @@
+{
+  "classiche": [
+    {
+      "nome": "Margherita",
+      "ingredienti": "Pomodoro, mozzarella",
+      "prezzo": 5
+    },
+    {
+      "nome": "Diavola",
+      "ingredienti": "Pomodoro, mozzarella, salame piccante",
+      "prezzo": 6.5
+    },
+    {
+      "nome": "Salsiccia e Funghi",
+      "ingredienti": "Pomodoro, mozzarella, salsiccia, funghi Champignon",
+      "prezzo": 6.5
+    },
+    {
+      "nome": "Quattro stagioni",
+      "ingredienti": "Pomodoro, mozzarella, prosciutto cotto, funghi Champignon, carciofi, salsiccia",
+      "prezzo": 7.5
+    },
+    {
+      "nome": "Bufala",
+      "ingredienti": "Pomodoro, bufaline, basilico",
+      "prezzo": 7.5
+    },
+    {
+      "nome": "Calzone",
+      "ingredienti": "Pomodoro, mozzarella, prosciutto cotto, funghi Champignon",
+      "prezzo": 7.5
+    },
+    {
+      "nome": "Friarielli e Salsiccia",
+      "ingredienti": "Pomodoro, mozzarella, friarielli, salsiccia",
+      "prezzo": 7.5
+    },
+    {
+      "nome": "Tonno e Cipolla",
+      "ingredienti": "Pomodoro, mozzarella, tonno, cipolla",
+      "prezzo": 7.5
+    },
+    {
+      "nome": "Porcini",
+      "ingredienti": "Pomodoro, mozzarella, funghi Porcini",
+      "prezzo": 8
+    },
+    {
+      "nome": "Vegetariana",
+      "ingredienti": "Pomodoro, mozzarella, zucchine, peperoni, melanzane, radicchio",
+      "prezzo": 7.5
+    },
+    {
+      "nome": "Quattro formaggi",
+      "ingredienti": "Mozzarella, gorgonzola dolce, bufala, Parmigiano Reggiano",
+      "prezzo": 8
+    },
+    {
+      "nome": "Cabonara",
+      "ingredienti": "Pomodoro, mozzarella, guanciale, uovo, Grana Padano, sale, pepe",
+      "prezzo": 8
+    }
+  ],
+  "specialita": [
+    {
+      "nome": "Tirolese",
+      "ingredienti": "Pomodoro, mozzarella, porcini, speck**",
+      "prezzo": 9
+    },
+    {
+      "nome": "Dolce e Salato",
+      "ingredienti": "Mozzarella, prosciutto crudo di Parma, mostarda di fichi* e pecorini toscano**",
+      "prezzo": 9
+    },
+    {
+      "nome": "Claro de Luna",
+      "ingredienti": "Pomodoro, mozzarella, radicchio trevigiano, pancetta, scaglie di pecorino toscano**",
+      "prezzo": 9
+    },
+    {
+      "nome": "Soffice",
+      "ingredienti": "Cornicione ripieno di ricotta, pomodoro, bufala, pomodrini* e rucola*",
+      "prezzo": 10
+    },
+    {
+      "nome": "Siciliana",
+      "ingredienti": "Pomodoro, Fior di latte, aglio, origano, alici, olive al forno, capperi e peperoncino",
+      "prezzo": 10
+    },
+    {
+      "nome": "Fantasia del pizzaiolo",
+      "ingredienti": "Cornicione ripieno di ricotta, pomodoro, mozzarella, friarielli e 'nduja",
+      "prezzo": 9.5
+    }
+  ]
+}

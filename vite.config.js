@@ -12,8 +12,5 @@ export default defineConfig(({ _command, _mode }) => {
         '~': resolve(__dirname, 'node_modules'),
       },
     },
-    server: {
-      open: true,
-    },
   };
 });
