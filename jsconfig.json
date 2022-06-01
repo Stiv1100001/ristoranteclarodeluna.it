@@ -1,0 +1,15 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "preserve",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "paths": {
+      "@": ["src/components"],
+      "~": ["node_modules"]
+    }
+  }
+}
