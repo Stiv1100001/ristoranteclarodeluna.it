@@ -29,7 +29,7 @@
 <template>
   <main>
     <div class="container-lg py-3">
-      <section class="location rounded rounded-3">
+      <section class="location rounded rounded-3" id="location">
         <h1 class="text-center py-2 display-3 fw-light">
           Claro de Luna, Ristorante&Pizzeria
         </h1>
@@ -54,7 +54,7 @@
         <Divider />
       </section>
 
-      <section class="ristorante rounded-3">
+      <section class="ristorante rounded-3" id="ristorante">
         <h5 class="title text-center mb-3">
           <span class="text">Ristorante&Pizzeria</span>
         </h5>
@@ -82,7 +82,7 @@
         <Divider />
       </section>
 
-      <section class="menu rounded-3">
+      <section class="menu rounded-3" id="menu">
         <h5 class="title text-center mb-3">
           <span class="text">Il Menù</span>
         </h5>
@@ -181,7 +181,7 @@
         <Divider />
       </section>
 
-      <section class="dove rounded-3">
+      <section class="dove rounded-3" id="dove">
         <h5 class="title text-center mb-3">
           <span class="text">Dove trovarci</span>
         </h5>

@@ -1,38 +1,38 @@
 <script setup>
-import { ref } from 'vue';
+  import { ref } from 'vue';
 
-const navItems = ref([
-  {
-    text: 'Home',
-    href: '#',
-    active: true,
-  },
-  {
-    text: 'Location',
-    href: '#',
-    active: false,
-  },
-  {
-    text: 'Ristorante&Pizzeria',
-    href: '#',
-    active: false,
-  },
-  {
-    text: 'Il Menù',
-    href: '#',
-    active: false,
-  },
-  {
-    text: 'Dove trovarci',
-    href: '#',
-    active: false,
-  },
-]);
+  const navItems = ref([
+    {
+      text: 'Home',
+      href: '#home',
+      active: true,
+    },
+    {
+      text: 'Location',
+      href: '#location',
+      active: false,
+    },
+    {
+      text: 'Ristorante&Pizzeria',
+      href: '#ristorante',
+      active: false,
+    },
+    {
+      text: 'Il Menù',
+      href: '#menu',
+      active: false,
+    },
+    {
+      text: 'Dove trovarci',
+      href: '#dove',
+      active: false,
+    },
+  ]);
 
-function setActive(index) {
-  this.navItems.forEach((item) => (item.active = false));
-  this.navItems[index].active = true;
-}
+  function setActive(index) {
+    this.navItems.forEach((item) => (item.active = false));
+    this.navItems[index].active = true;
+  }
 </script>
 
 <template>
@@ -61,7 +61,7 @@ function setActive(index) {
               class="nav-item"
               :class="{ active: item.active }"
             >
-              <a class="nav-link" href="#" @click="setActive(index)">{{
+              <a class="nav-link" :href="item.href" @click="setActive(index)">{{
                 item.text
               }}</a>
             </li>
@@ -73,50 +73,50 @@ function setActive(index) {
 </template>
 
 <style lang="scss" scoped>
-@import '@/assets/style/partials/variables';
+  @import '@/assets/style/partials/variables';
 
-header {
-  background-image: url('@/assets/img/jumbotron.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center -20em;
-  height: 50vh;
-}
-
-nav {
-  background-color: $secondary !important;
-  z-index: 200;
-
-  .claro {
-    color: $primary;
-    text-shadow: 0 0 5px $black;
+  header {
+    background-image: url('@/assets/img/jumbotron.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center -20em;
+    height: 50vh;
   }
 
-  .navbar-collapse {
-    flex-basis: content;
-    flex-grow: 0;
-  }
+  nav {
+    background-color: $secondary !important;
+    z-index: 200;
 
-  .navbar-toggler {
-    border-color: $primary;
-    &:focus {
-      box-shadow: 0 0 2px 0.25rem $primary;
+    .claro {
+      color: $primary;
+      text-shadow: 0 0 5px $black;
     }
-  }
 
-  .nav-item {
-    a {
-      color: $black;
-      &:hover {
-        color: black;
+    .navbar-collapse {
+      flex-basis: content;
+      flex-grow: 0;
+    }
+
+    .navbar-toggler {
+      border-color: $primary;
+      &:focus {
+        box-shadow: 0 0 2px 0.25rem $primary;
       }
     }
-    &.active {
+
+    .nav-item {
       a {
-        color: black;
-        font-weight: 600;
+        color: $black;
+        &:hover {
+          color: black;
+        }
+      }
+      &.active {
+        a {
+          color: black;
+          font-weight: 600;
+        }
       }
     }
   }
-}
 </style>
