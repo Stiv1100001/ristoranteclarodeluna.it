@@ -38,26 +38,28 @@
 <template>
   <header>
     <nav
-      class="navbar navbar-expand-lg navbar-light bg-light position-fixed w-100"
+      class="navbar navbar-expand-lg navbar-light bg-light vw-100 py-2 position-fixed"
     >
-      <div class="container justify-content-between">
-        <a class="navbar-brand claro fs-4" href="#">Claro de Luna</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+      <div class="container-fluid w-100">
+        <div class="d-flex justify-content-between px-3" id="left">
+          <a class="navbar-brand claro fs-4" href="#">Claro De Luna</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu-list"
+            aria-controls="menu-list"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="menu-list">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li
               v-for="(item, index) in navItems"
-              :key="item.text"
+              :key="item.href"
               class="nav-item"
               :class="{ active: item.active }"
             >
@@ -73,7 +75,9 @@
 </template>
 
 <style lang="scss" scoped>
+  // @import '~/bootstrap/scss/bootstrap.scss';
   @import '@/assets/style/partials/variables';
+  // @import '~/bootstrap/scss/variables';
 
   header {
     background-image: url('@/assets/img/jumbotron.jpg');
@@ -86,6 +90,10 @@
   nav {
     background-color: $secondary !important;
     z-index: 200;
+
+    #left {
+      width: 100%;
+    }
 
     .claro {
       color: $primary;
@@ -116,6 +124,14 @@
           color: black;
           font-weight: 600;
         }
+      }
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    nav {
+      #left {
+        width: auto;
       }
     }
   }
