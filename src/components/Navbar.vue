@@ -3,8 +3,8 @@
 
   const navItems = ref([
     {
-      text: 'Home',
-      href: '#home',
+      text: 'Claro de Luna',
+      href: '#',
       active: true,
     },
     {
@@ -39,6 +39,7 @@
   <header>
     <nav
       class="navbar navbar-expand-lg navbar-light bg-light vw-100 py-2 position-fixed"
+      id="navbar"
     >
       <div class="container-fluid w-100">
         <div class="d-flex justify-content-between px-3" id="left">

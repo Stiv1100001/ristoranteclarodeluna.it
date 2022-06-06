@@ -2,9 +2,11 @@
   import Divider from './Divider.vue';
   import Carousel from './Carousel.vue';
   import MenuItem from './MenuItem.vue';
+
   import * as piattiRistorante from '@/assets/data/ristorante.json';
   import * as pizzeria from '@/assets/data/pizzeria.json';
   import * as vini from '@/assets/data/vini.json';
+
   const locationImages = [
     'location/location1.jpg',
     'location/location2.jpg',
@@ -28,7 +30,14 @@
 
 <template>
   <main>
-    <div class="container-lg py-3">
+    <div
+      class="container-lg py-3"
+      data-bs-spy="scroll"
+      data-bs-target="#navbar"
+      data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true"
+      tabindex="0"
+    >
       <section class="location rounded rounded-3" id="location">
         <h1 class="text-center py-2 display-3 fw-light">
           Claro de Luna, Ristorante&Pizzeria
