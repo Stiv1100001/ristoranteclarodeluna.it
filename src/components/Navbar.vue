@@ -30,8 +30,8 @@
   ]);
 
   function setActive(index) {
-    this.navItems.forEach((item) => (item.active = false));
-    this.navItems[index].active = true;
+    navItems.forEach((item) => (item.active = false));
+    navItems[index].active = true;
   }
 </script>
 
@@ -75,9 +75,7 @@
 </template>
 
 <style lang="scss" scoped>
-  // @import '~/bootstrap/scss/bootstrap.scss';
   @import '@/assets/style/partials/variables';
-  // @import '~/bootstrap/scss/variables';
 
   header {
     background-image: url('@/assets/img/jumbotron.jpg');
