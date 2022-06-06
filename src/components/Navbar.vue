@@ -30,8 +30,8 @@
   ]);
 
   function setActive(index) {
-    navItems.forEach((item) => (item.active = false));
-    navItems[index].active = true;
+    navItems.value.forEach((item) => (item.active = false));
+    navItems.value[index].active = true;
   }
 </script>
 
