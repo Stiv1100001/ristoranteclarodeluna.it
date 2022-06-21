@@ -2,93 +2,103 @@
   "antipasti": {
     "pesce": [
       {
-        "nome": "Baccalà mantecato, salsa barbecue di pomodorini gialli e polvere di olive nere",
-        "descrizione": "",
-        "prezzo": 8
+        "nome": "Cappesante come una pizza margherita",
+        "descrizione": "Cappesante scottate, briciole di pizza, salsa e pomodorini confit, basilico e burrata",
+        "prezzo": 13
       },
       {
-        "nome": "Polpo scottato, spuma e cavolfiori croccanti",
-        "descrizione": "",
+        "nome": "A tutto tonno",
+        "descrizione": "Carpaccio di tonno crudo, salsa tonnata e foglie di cappero",
+        "prezzo": 12
+      },
+      {
+        "nome": "Tartare di Salmone",
+        "descrizione": "Tartare di salmone, sesamo nero, tosazu e alghe verdi",
         "prezzo": 10
+      },
+      {
+        "nome": "Antipasto Romagnolo",
+        "descrizione": "Insalata di seppia, polpo* e patate, code di gambero* con rucola, funcghi champignon e scaglie di grana",
+        "prezzo": 16
       }
     ],
     "carne": [
       {
-        "nome": "Selezione di salumi e formaggi del territorio",
-        "descrizione": "Prosciutto di Parma, pancetta, mortadella, salame, coppa di testa, caciotta, squacquerone",
+        "nome": "Roast Beef",
+        "descrizione": "Roast beef affumicato, pan bioche croccante, maionese al pino mugo e cipolla rossa in agrodolce",
+        "prezzo": 10
+      },
+      {
+        "nome": "Speck e Formaggio",
+        "descrizione": "Speck nostrano del Süd Tirol con formaggio alle erbe di montagna",
+        "prezzo": 8
+      },
+      {
+        "nome": "Selezione di Salumi e Formaggi",
+        "descrizione": "Selezione di salumi e formaggi \"Salumificio Franceschini\": prosciutto di Parma, pancetta, mortadella, salame, ciccioli, caciotta e squacquerone",
         "prezzo": 9
       },
       {
-        "nome": "Cestino di crescentine fritte a porzione",
-        "descrizione": "",
-        "prezzo": 2.5
-      },
-      {
-        "nome": "Pancia di mailino, riduzione alla liquirizia e cipolla rossa agrodolce",
-        "descrizione": "",
-        "prezzo": 9
+        "nome": "Crescentine fritte",
+        "descrizione": "Cestino di crescentine fritte a porzione",
+        "prezzo": 3
       }
     ]
   },
   "primi": [
     {
-      "nome": "Lasagne verdi al Ragoût bolognese",
-      "descrizione": "15 minuti di attesa",
-      "prezzo": 10
-    },
-    {
-      "nome": "Passatelli in brodo di manzo e cappone",
+      "nome": "Tagliatelle al Ragoût bolognese",
       "descrizione": "",
       "prezzo": 10
     },
     {
-      "nome": "Tortellini \"36 Tuorli\" doppia panna e polvere di barbabietola",
+      "nome": "Tortellini all'ortica, crema di Parmigiano Reggiano 24 mesi e nocciole tostate",
       "descrizione": "",
-      "prezzo": 12
+      "prezzo": 13
     },
     {
-      "nome": "Pizzocchero Bolognese",
-      "descrizione": "Tortelloni di grano saraceno ripieni di patate e verza, mantecati al burro, salvia e Grana Padano 18 mesi",
-      "prezzo": 10
-    },
-    {
-      "nome": "Pasta mista al torchio in brodetto di mare e katsuobushi di tono (filetti esiccati)",
+      "nome": "Passatelli asciutti, pesto di basilico e olive taggiasche",
       "descrizione": "",
       "prezzo": 12
     },
     {
-      "nome": "Spaghetti alla chitarra cacio, pepe e battuta di scampi* crudi al limone",
+      "nome": "Gnocchetti di ricotta, crema di pomodorini secchi, carpaccio crudo di gambero* viola e filetti di mandorle",
+      "descrizione": "",
+      "prezzo": 14
+    },
+    {
+      "nome": "Mezzamanica al nero di seppia, polpa di granchio, guazzetto di pomodoro e katsuobushi (filetti di tonno essicatto)",
       "descrizione": "",
       "prezzo": 13
     }
   ],
   "secondi": [
     {
-      "nome": "Guancia di vitello cotta bassa temperatura, porcini e purea di patate schiacciate",
+      "nome": "Filetto di maialino, salsa alla Saba di Pignoletto e cremoso al pecorino",
       "descrizione": "",
       "prezzo": 16
     },
     {
-      "nome": "Pluma Iberica",
-      "descrizione": "Maialino di Patanegra, salsa alla birra e miele e cipolla agrodolce",
-      "prezzo": 15
+      "nome": "Petto e coscia di piccone, salsa al miele e caffé e purea di patate",
+      "descrizione": "",
+      "prezzo": 20
     },
     {
-      "nome": "Trancio di salmone affumicato al pino mugo e cavolo viola marinato",
-      "descrizione": "",
-      "prezzo": 15
+      "nome": "Thai Wok",
+      "descrizione": "Polpo e code di gamberi* saltati con pak choi, uova e salsa di soia",
+      "prezzo": 18
     },
     {
-      "nome": "Frittura di calamari, gamberi e maionese al limone",
-      "descrizione": "",
-      "prezzo": 15
+      "nome": "Pesce gratinato al forno",
+      "descrizione": "Filetti di rombo, orata, branzino, sogliola e salmone, cappasanta e spiedino di gamberi*",
+      "prezzo": 20
     }
   ],
   "contorni": [
     {
       "nome": "Verdure di stagione trifolate",
       "descrizione": "",
-      "prezzo": 4
+      "prezzo": 5
     },
     {
       "nome": "Friggione alla bolognese",
@@ -98,18 +108,23 @@
   ],
   "dolci": [
     {
-      "nome": "Cannolo di biscotto croccante, crema al mascarpone e salsa al ciocolato",
-      "descrizione": "",
+      "nome": "Cheesecake scomposta",
+      "descrizione": "Crema al formaggio, biscotto croccante, salsa ai frutti di bosco",
       "prezzo": 6
     },
     {
-      "nome": "Foresta Nera ai frutti rossi",
-      "descrizione": "Brownie al cioccolato, sorbetto ai frutti rossi, amarene, panna montata, salsa al lampone e kisch",
+      "nome": "Come uno strüdel",
+      "descrizione": "Mele cotte con cannella e uvetta, pastafrolla, sorbetto alla mela e pinoli caramellati",
       "prezzo": 6
     },
     {
-      "nome": "Claro De Luna",
-      "descrizione": "Cremoso e biscotto morbido al pistacchio, mezzaluna al cioccolato bianco, salsa al pistacchio salato e crumble croccante",
+      "nome": "Semifreddo al Gianduia",
+      "descrizione": "Semifreddo al gianduia, sfere croccanti, cremoso e biscotto morbido allo yogurt",
+      "prezzo": 6
+    },
+    {
+      "nome": "Créme brûlée",
+      "descrizione": "Créme brûlée, cremoso al cioccolato fondente 66% e foglie di biscotto croccante",
       "prezzo": 6
     },
     {
@@ -120,12 +135,12 @@
   ],
   "sorbetti": [
     {
-      "nome": "Pera e zenzero",
+      "nome": "Maracujá",
       "descrizione": "",
       "prezzo": 4
     },
     {
-      "nome": "Frutti Rossi",
+      "nome": "Mango",
       "descrizione": "",
       "prezzo": 4
     }
@@ -152,8 +167,8 @@
       "descrizione": "Due Palme"
     },
     {
-      "nome": "Porto Tawny",
-      "descrizione": "Don Pablo"
+      "nome": "Porto White",
+      "descrizione": "Sandeman"
     },
     {
       "nome": "Marsala Superiore DOC",
